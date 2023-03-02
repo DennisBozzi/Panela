@@ -1,1 +1,1 @@
-<center src="https://github.com/DennisBozzi/Panela/blob/main/casca.gif" </center>
+<center src="https://github.com/DennisBozzi/Panela/blob/main/casca.gif"></center>
