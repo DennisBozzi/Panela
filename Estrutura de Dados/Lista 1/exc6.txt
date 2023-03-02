@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+
+        String[] nomes = new String[5];
+
+        Console.WriteLine("Digite 5 nomes:");
+        for (int i = 0; i < nomes.Length; i++)
+        {
+            nomes[i] = Console.ReadLine();
+        }
+
+        Console.Clear();
+
+        Console.WriteLine("Qual nome gostaria de consultar?");
+        String busca = Console.ReadLine();
+
+        for (int i = 0; i < nomes.Length; i++)
+        {
+            if (busca == nomes[i])
+            {
+                Console.WriteLine("O nome foi encontrado! - " + busca);
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+
+        Console.WriteLine("Digite dois números:");
+
+        int n1 = Convert.ToInt32(Console.ReadLine());
+        int n2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Clear();
+
+        Console
+    }
+}
